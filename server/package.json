@@ -2,9 +2,15 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "index.js",
+  "jest": {
+    "setupTestFrameworkScriptFile": "./test/setup.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./index.js",
+    "start": "node index.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -28,5 +34,8 @@
     "nodemon": "^2.0.16",
     "prettier": "^2.6.2",
     "supertest": "^6.2.3"
+  },
+  "prettier": {
+    "singleQuote": true
   }
 }
