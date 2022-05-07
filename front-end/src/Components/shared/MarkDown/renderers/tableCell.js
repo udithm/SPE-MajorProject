@@ -4,7 +4,7 @@ import { css } from 'styled-components';
 
 const tableHeader = css`
   text-align: center;
-  font-weight: 600
+  font-weight: 600;
 `;
 
 const tableCell = isHeader => css`

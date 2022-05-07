@@ -18,10 +18,12 @@ const Wrapper = styled.header`
   padding: 0 10vw;
   background-color: ${props => props.theme.foreground};
   user-select: none;
+
   @media (max-width: 425px) {
     margin-bottom: 16px;
     height: 40px;
   }
+
   @media (max-width: 768px) {
     padding: 0;
   }

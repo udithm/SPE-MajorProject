@@ -11,6 +11,7 @@ const Wrapper = styled.div`
   background-color: ${props => props.theme.foreground};
   font-size: 13px;
   color: ${props => props.theme.mutedText};
+
   @media (max-width: 768px) {
     border-left: none;
     border-right: none;

@@ -5,8 +5,10 @@ import { transition } from '../../shared/helpers';
 const Icon = styled.svg`
   width: 20px;
   height: 20px;
+
   & path {
     ${transition('fill')};
+
     fill: ${props => props.theme.mutedText};
   }
   

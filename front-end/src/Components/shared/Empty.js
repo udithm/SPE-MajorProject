@@ -4,6 +4,7 @@ import { smallFont } from '../shared/helpers';
 
 const Wrapper = styled.div`
   ${smallFont};
+
   ${props => props.comments && 'margin-top: 16px'};
   border: 1px solid ${props => props.theme.border};
   border-radius: 2px;
@@ -11,6 +12,7 @@ const Wrapper = styled.div`
   background-color: ${props => props.theme.foreground};
   text-align: center;
   color: ${props => props.theme.mutedText};
+
   @media (max-width: 768px) {
     ${props => !props.comments && 'margin-top: -1px'};
     border-left: none;

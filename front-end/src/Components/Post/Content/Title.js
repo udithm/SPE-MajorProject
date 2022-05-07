@@ -5,8 +5,10 @@ import { overflow, link } from '../../shared/helpers';
 
 const Wrapper = styled.div`
   display: flex;
+
   * {
     ${overflow};
+
     display: block;
     font-size: 15px;
     line-height: 21px;
@@ -15,6 +17,7 @@ const Wrapper = styled.div`
     color: ${props => props.theme.normalText};
     ${props => props.full && 'white-space: unset'};
   }
+
   a {
     ${link({ underline: true })};
   }

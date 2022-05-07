@@ -10,6 +10,7 @@ const PostVoteButton = styled.button`
   width: 22px;
   background-color: transparent;
   cursor: pointer;
+
   :focus {
     outline: 0;
   }
@@ -17,6 +18,7 @@ const PostVoteButton = styled.button`
   :hover {
     background-color: ${props => props.theme.voteButtonHover};
   }
+
   ::after {
     ${transition('border')};
     

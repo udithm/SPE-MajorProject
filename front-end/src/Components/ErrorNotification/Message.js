@@ -3,6 +3,7 @@ import { smallFont } from '../shared/helpers';
 
 const ErrorNotificationMessage = styled.div`
   ${smallFont};
+
   position: relative;
   display: inline-block;
   padding: 12px 32px;
