@@ -15,6 +15,7 @@ const Wrapper = styled.div`
   @media (max-width: 1024px) {
     margin: 0 5vw;
   }
+
   @media (max-width: 768px) {
     display: block;
     margin: 0;

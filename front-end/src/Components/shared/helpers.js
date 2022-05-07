@@ -36,6 +36,7 @@ export const headerItem = css`
   align-items: center;
   flex-shrink: 0;
   padding: 0 16px;
+
   @media (max-width: 425px) {
     padding: 0 8px;
   }
@@ -43,9 +44,11 @@ export const headerItem = css`
 
 export const link = props => css`
   ${transition('color')};
+
   text-underline-position: under;
   text-decoration: none;
   color: ${props => props.theme.normalText};
+
   :hover {
     ${props.underline && 'text-decoration: underline'};
     color: ${props => props.theme.accent};

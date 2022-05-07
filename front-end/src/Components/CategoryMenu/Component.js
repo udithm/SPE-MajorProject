@@ -9,6 +9,7 @@ const Menu = styled.nav`
   border: 1px solid ${props => props.theme.border};
   border-left: none;
   border-right: none;
+
   @media (max-width: 768px) {
     display: flex;
   }

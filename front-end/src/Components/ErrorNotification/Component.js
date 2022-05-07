@@ -8,6 +8,7 @@ const className = 'message';
 
 const Wrapper = styled.div`
   ${transition('opacity', 'transform')};
+
   position: fixed;
   top: 16px;
   left: 0;
@@ -15,17 +16,21 @@ const Wrapper = styled.div`
   z-index: 100;
   text-align: center;
   pointer-events: none;
+
   &.${className}-enter {
     opacity: 0;
     transform: translateY(-25%);
   }
+
   &.${className}-enter-active {
     opacity: 1;
     transform: translateY(0);
   }
+
   &.${className}-exit {
     opacity: 1;
   }
+
   &.${className}-exit-active {
     opacity: 0;
   }

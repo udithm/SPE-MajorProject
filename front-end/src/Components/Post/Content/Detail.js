@@ -11,12 +11,15 @@ const Wrapper = styled.div`
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+
   & > * {
     margin-right: 4px;
   }
+
   & > a {
     ${link};
   }
+
   & > span {
     color: ${props => props.theme.mutedText};
   }

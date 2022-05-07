@@ -21,6 +21,7 @@ const headingStyle = level => css`
 
 const Heading = styled.span`
   ${props => headingStyle(props.as)};
+
   & + h1,
   & + h2,
   & + h3,

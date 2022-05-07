@@ -9,6 +9,7 @@ const TextArea = styled(Input)`
   border-bottom: 1px solid ${props => props.theme.border};
   border-radius: 0;
   resize: none;
+
   :hover,
   :focus {
     border: none;
