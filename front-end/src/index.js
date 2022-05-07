@@ -8,7 +8,7 @@ import './index.css';
 import './style.css';
 import './config/moment';
 import ReactDOM from 'react-dom';
-import store from './store';
+import store from './app/store';
 import AppContainer from './components/App/Container';
 import * as serviceWorker from './serviceWorker';
 
