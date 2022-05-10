@@ -27,7 +27,7 @@ jobs:
     - uses: actions/setup-node@v3
     
     - name: Installing required dependencies
-      run: npm install
+      run: npm ci
       
     - name: Making production build
       run: npm run build
