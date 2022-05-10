@@ -27,7 +27,8 @@ jobs:
     - uses: actions/setup-node@v3
     
     - name: ls
-      run: ls
+      run: |
+          ls ${{ github.workspace }}
     
     - name: Installing required dependencies
       run: npm ci
