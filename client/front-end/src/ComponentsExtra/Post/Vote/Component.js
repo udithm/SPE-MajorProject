@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 import PostVoteUpvote from './Upvote';
-
 import PostVoteDownvote from './Downvote';
 
 const Wrapper = styled.div`
