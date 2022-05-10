@@ -2,7 +2,7 @@ const { login, createAuthToken } = require('../auth');
 const { body, validationResult } = require('express-validator/check');
 const User = require('../models/user');
 
-
+// for testing
 
 exports.register = async (req, res, next) => {
     const result = validationResult(req);
