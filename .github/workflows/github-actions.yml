@@ -2,7 +2,6 @@ name: GitHub Actions Demo
 on: 
   push:
     paths-ignore:
-      - 'server/**'
       - '.github/workflows/**'
   
 jobs:
@@ -36,3 +35,6 @@ jobs:
     - name: List files in the repository
       run: |
           ls ${{ github.workspace }}
+          
+          
+          
