@@ -52,7 +52,7 @@ exports.validate = method => {
 
     body('password')
       .exists()
-      .withMessage('is necessary'
+      .withMessage('is necessary')
 
       .isLength({ min: 1 })
       .withMessage('should not be empty')
